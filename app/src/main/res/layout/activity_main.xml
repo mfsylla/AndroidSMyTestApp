@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:background="@drawable/car"
+                android:gravity="bottom"
+                android:text="SPORT CARS"
+                android:textAlignment="center"
+                android:textColor="#F1F3F1"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="192dp"
+                    android:layout_height="470dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:background="#1976D2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="82dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_queue_music_black_24dp"
+                        android:tint="#FCFAF5F5"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="83dp"
+                        android:background="#321C1669"
+                        android:gravity="center"
+                        android:text="ENGINE SOUNDS"
+                        android:textAlignment="center"
+                        android:textColor="#F8F8FA"
+                        android:textSize="18dp" /><![CDATA[ />
+                ]]>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="198dp"
+                    android:layout_height="183dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:background="#E68319"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="79dp"
+                        android:layout_height="93dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_border_color_black_24dp"
+                        android:tint="#FCFAF5F5"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:layout_width="212dp"
+                        android:layout_height="83dp"
+                        android:background="#321C1669"
+                        android:gravity="center"
+                        android:text="DESIGN YOUR CAR"
+                        android:textAlignment="center"
+                        android:textColor="#FCFDFF"
+                        android:textSize="18dp" />
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="192dp"
+                    android:layout_height="470dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:background="#D734AA11"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="85dp"
+                        android:layout_height="91dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_surround_sound_black_24dp"
+                        android:tint="#FCFAF5F5"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="89dp"
+                        android:background="#321C1669"
+                        android:gravity="center"
+                        android:text="BUILD YOUR SOUND"
+                        android:textAlignment="center"
+                        android:textColor="#F8F8FA"
+                        android:textSize="18dp" /><![CDATA[
+                    />
+                ]]>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="198dp"
+                    android:layout_height="183dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:background="#D7E61953"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="92dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_question_answer_black_24dp"
+                        android:tint="#FCFAF5F5"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:layout_width="212dp"
+                        android:layout_height="87dp"
+                        android:background="#321C1669"
+                        android:gravity="center"
+                        android:text="QUIZZ"
+                        android:textAlignment="center"
+                        android:textColor="#FCFDFF"
+                        android:textSize="18dp" />
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="192dp"
+                    android:layout_height="470dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:background="#7B1FA2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="84dp"
+                        android:layout_height="92dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_people_black_24dp"
+                        android:tint="#FCFAF5F5"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="86dp"
+                        android:background="#321C1669"
+                        android:gravity="center"
+                        android:text="YOUR FAMILY"
+                        android:textAlignment="center"
+                        android:textColor="#F8F8FA"
+                        android:textSize="18dp" /><![CDATA[
+                    />
+                ]]>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="198dp"
+                    android:layout_height="183dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:background="#0097A7"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="81dp"
+                        android:layout_height="94dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_camera_alt_black_24dp"
+                        android:tint="#FCFAF5F5"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:layout_width="212dp"
+                        android:layout_height="85dp"
+                        android:background="#321C1669"
+                        android:gravity="center"
+                        android:text="PHOTOMATON"
+                        android:textAlignment="center"
+                        android:textColor="#FCFDFF"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
